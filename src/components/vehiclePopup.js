@@ -181,7 +181,7 @@ export default function VehiclePopUP(props) {
           </div>
         </div>
         <p align="center" >
-          <button onClick={submitButton}>Add Entry</button>
+          <button  style={{backgroundColor:"blue"}} onClick={submitButton}>Add Entry</button>
         </p>
       </div>
     </div>
