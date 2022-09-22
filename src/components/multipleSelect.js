@@ -152,7 +152,7 @@ export default function MultipleSelect(props) {
         })}
       </div>
       <p align="center">
-        <button onClick={submitButton}>Add details</button>
+        <button style={{backgroundColor:"blue"}} onClick={submitButton}>Add details</button>
       </p>
     </div>
   );
